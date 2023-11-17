@@ -1,0 +1,39 @@
+/* General style for the header */
+header {
+    display: flex;
+    justify-content: space-between; /* Distributes space between elements */
+    align-items: center; /* Aligns items vertically in the center */
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px; /* Padding around content */
+}
+
+/* Style for the name */
+.header-name {
+    font-size: 1.5em; /* Larger font size for the name */
+    color: #333; /* Dark grey color */
+    margin: 0; /* Removes default margin */
+}
+
+/* Style for the navigation menu */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Aligns items in a row */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Style for each navigation item */
+nav ul li {
+    margin-right: 20px; /* Space between items */
+}
+
+/* Style for navigation links */
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: #333; /* Dark grey color for text */
+}
+
+/* Hover effect for links */
+nav a:hover {
+    color: #007bff; /* Change color on hover */
+}

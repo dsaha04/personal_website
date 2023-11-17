@@ -1,0 +1,64 @@
+/* Resume Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 20px;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 3px;
+    margin-top: 20px;
+}
+
+p, ul, li {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+li strong {
+    font-weight: bold;
+}
+
+/* Add more styles as needed */

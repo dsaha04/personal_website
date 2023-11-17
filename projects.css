@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333; /* Dark grey text color */
+}
+
+/* Apply a font throughout the page */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+
+/* Style the section */
+section h2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+/* Style each work experience entry */
+.work-experience {
+    background-color: #fff; /* White background for content areas */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Slightly rounded corners for polish */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+}
+
+.work-experience h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.work-experience p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.work-experience ul {
+    margin-top: 10px;
+}
+
+.work-experience ul li {
+    background-color: #e7e7e7; /* Very light grey for list items */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
